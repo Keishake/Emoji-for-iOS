@@ -18,7 +18,7 @@ $(function(){
 		$.get('result.php',{'result':result});
 	
 	});
-	unko = String.fromCharCode(11093,10060)
+	unko = String.fromCharCode(11093,10060,9994)
 	alert(unko);	
 });
 
@@ -26,7 +26,7 @@ function jqemoji(str){
 	str = String(str);
 	for(i=0;i<str.length;i++){
 		code = str.charCodeAt(i);
-		if(code==55356||code==55357||code==8419){
+		if(code==55356||code==55357||code==8419||code==9994||code==9995||code=9996||code==9728||code==9748||code==9729||code==9924){
 			return false;
 		}
 	}
