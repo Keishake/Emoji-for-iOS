@@ -18,7 +18,7 @@ $(function(){
 		$.get('result.php',{'result':result});
 	
 	});
-	unko = String.fromCharCode(11093,10060,9994)
+	unko = String.fromCharCode(11093,10060,9994,9918,9824,9829,9827,9830)
 	alert(unko);	
 });
 
